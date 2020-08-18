@@ -1,7 +1,7 @@
 /*
  * Jaime Rodriguez
  * Assignment 1.1
- * August 17, 2020
+ * August 18, 2020
  *
  * Purpose: Convert value of dollar amount given
  * to display denomination values
