@@ -1,3 +1,20 @@
+/*
+ * Jaime Rodriguez
+ * Assignment 2.1
+ * August 24, 2020
+ *
+ * Purpose: Utilizing non-static methods
+ * take a user input and square/cube number.
+ * Show result in dialog box.
+ *
+ * To compile the program:
+ * javac Exponent.java
+ *
+ * To execute the program:
+ * java Exponent
+ *
+ */
+
 import javax.swing.*;
 
 public class Exponent {
