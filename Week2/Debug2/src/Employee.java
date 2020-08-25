@@ -1,3 +1,19 @@
+/*
+ * Jaime Rodriguez
+ * Assignment 2.3
+ * August 25, 2020
+ *
+ * Purpose: Purposely insert "bugs" for
+ * other students to find and fix
+ *
+ * To compile the program:
+ * javac Employee.java
+ *
+ * To execute the program:
+ * java Employee
+ *
+ */
+
 import java.util.Scanner;
 
 public class Employee {
@@ -43,6 +59,7 @@ public class Employee {
 
     public static void main(String [] args) {
 
+        // Should read sc not "scn"
         Scanner scn = new Scanner(System.in);
 
         System.out.println("Enter First Name: ");
@@ -52,6 +69,7 @@ public class Employee {
         System.out.println("Enter Employee Title:");
         String employeeType = sc.next();
         System.out.println("Enter Employee Number:");
+        // Type should be int
         String employeeNumber = sc.nextInt();
 
         Employee employeeOne = new Employee(firstName, lastName, employeeType, employeeNumber);
