@@ -47,6 +47,7 @@ public class CollegeStudent {
         this.projectedGradDate = projectedGradDate;
     }
 
+    // Formatting the date for a more user readable date
     public static String format(GregorianCalendar date){
         Date newDate = date.getTime();
 
@@ -55,6 +56,7 @@ public class CollegeStudent {
         return dateFormatted;
     }
 
+    // Return display of input data
     public String toString() {
         return "First Name : "+firstName+"\t Last Name : "+lastName+"\t EnrollDate : "+format(enrollmentDate)+"\t Graduation Date : "+format(projectedGradDate);
     }

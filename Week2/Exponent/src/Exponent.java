@@ -22,33 +22,32 @@ public class Exponent {
     public static void main (String [] args) {
 
         String userInput;
-        double squareAnswer, cubeAnswer;
+        double number, squareAnswer, cubeAnswer;
+
+        Exponent squared = new Exponent();
+        Exponent cubed = new Exponent();
 
         userInput = JOptionPane.showInputDialog(null, "Enter your number: ");
+        number = Double.parseDouble(userInput);
 
-        squareAnswer = square(userInput);
-        cubeAnswer = cube(userInput);
+        squareAnswer = squared.squareMethod(number);
+        cubeAnswer = cubed.cubeMethod(number);
 
         JOptionPane.showMessageDialog(null,"Number entered: " + userInput + "\n\n" +
                                                                     "Number squared: " + squareAnswer);
-
         JOptionPane.showMessageDialog(null,"Number entered: " + userInput + "\n\n" +
                                                                     "Number cubed: " + cubeAnswer);
     }
 
-    public static double square(String input) {
-
-        double square, number;
-        number = Double.parseDouble(input);
+    public double squareMethod(double number) {
+        double square;
         square = Math.pow(number, 2);
 
         return square;
     }
 
-    public static double cube(String input) {
-
-        double cube, number;
-        number = Double.parseDouble(input);
+    public double cubeMethod(double number) {
+        double cube;
         cube = Math.pow(number, 3);
 
         return cube;
