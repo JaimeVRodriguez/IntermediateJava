@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b10d383-b50e-4197-858d-6bbd5b1bbcaa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/CollegeStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollegeStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestCollegeStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCollegeStudent.java" afterDir="false" />
-    </list>
+    <list default="true" id="4b10d383-b50e-4197-858d-6bbd5b1bbcaa" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +76,7 @@
       <workItem from="1598277427321" duration="9073000" />
       <workItem from="1598306795030" duration="751000" />
       <workItem from="1598311259917" duration="13000" />
-      <workItem from="1598355352327" duration="304000" />
+      <workItem from="1598355352327" duration="582000" />
     </task>
     <servers />
   </component>
