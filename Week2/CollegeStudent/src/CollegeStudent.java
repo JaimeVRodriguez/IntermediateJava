@@ -1,3 +1,20 @@
+/*
+ * Jaime Rodriguez
+ * Assignment 2.2
+ * August 25, 2020
+ *
+ * Purpose: Create a class to collect info
+ * about college enrollment. Create two instances
+ * of college students
+ *
+ * To compile the program:
+ * javac CollegeStudent.java
+ *
+ * To execute the program:
+ * java CollegeStudent
+ *
+ */
+
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
