@@ -16,7 +16,7 @@
 
 import java.util.Scanner;
 
-public class Employee {
+class Employee {
 
     private String employeeType, firstName, lastName;
     private int employeeNumber;
@@ -56,6 +56,9 @@ public class Employee {
     public String toString() {
         return "First Name: "+firstName+"\t Last Name: "+lastName+"\t Employee Type: "+employeeType+"\t Employee Number: "+employeeNumber;
     }
+}
+
+public class DebugTwo {
 
     public static void main(String [] args) {
 
@@ -78,9 +81,5 @@ public class Employee {
         System.out.println("Employee Info");
         System.out.println("=============");
         System.out.println(employeeOne);
-
-
     }
-
-
 }

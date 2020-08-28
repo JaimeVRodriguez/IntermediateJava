@@ -58,7 +58,5 @@ public class Dollars {
                                                                     "1's:   " + ones);
 
         System.exit(0);
-
-
     }
 }
