@@ -34,9 +34,9 @@ public class Exponent {
         cubeAnswer = cubed.cubeMethod(number);
 
         JOptionPane.showMessageDialog(null,"Number entered: " + userInput + "\n\n" +
-                                                                    "Number squared: " + squareAnswer);
+                "Number squared: " + squareAnswer);
         JOptionPane.showMessageDialog(null,"Number entered: " + userInput + "\n\n" +
-                                                                    "Number cubed: " + cubeAnswer);
+                "Number cubed: " + cubeAnswer);
     }
 
     public double squareMethod(double number) {

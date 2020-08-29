@@ -19,9 +19,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b10d383-b50e-4197-858d-6bbd5b1bbcaa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/CollegeStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollegeStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestCollegeStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCollegeStudent.java" afterDir="false" />
+    <list default="true" id="d6058fee-9afb-4605-be55-4b7dd2b0e37d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Week1new/DebugOne/DebugOne.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week1new/DebugOne/src/DebugOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week1new/Dollars/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week1new/Dollars/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week1new/Dollars/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week1new/Dollars/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week1new/Dollars/Dollars.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week1new/Dollars/src/Dollars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week1new/ErrorOne/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week1new/ErrorOne/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week1new/ErrorOne/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week1new/ErrorOne/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week1new/ErrorOne/ErrorOne.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week1new/ErrorOne/src/ErrorOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CollegeStudent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollegeStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestCollegeStudent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +57,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1gY2uNz8imWc2vCzrt6ncJWXDAM" />
+  <component name="ProjectId" id="1gkhjqXYptfOvPByJxSjtdp7j4t" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -71,15 +90,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4b10d383-b50e-4197-858d-6bbd5b1bbcaa" name="Default Changelist" comment="" />
-      <created>1598277426098</created>
+      <changelist id="d6058fee-9afb-4605-be55-4b7dd2b0e37d" name="Default Changelist" comment="" />
+      <created>1598664635150</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1598277426098</updated>
-      <workItem from="1598277427321" duration="9073000" />
-      <workItem from="1598306795030" duration="751000" />
-      <workItem from="1598311259917" duration="13000" />
-      <workItem from="1598355352327" duration="304000" />
+      <updated>1598664635150</updated>
+      <workItem from="1598664636331" duration="140000" />
     </task>
     <servers />
   </component>
@@ -96,24 +112,23 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="271" key="GridCell.Tab.0.bottom" timestamp="1598289577338">
-      <screen x="0" y="23" width="1792" height="1097" />
+    <state width="1358" height="271" key="GridCell.Tab.0.bottom" timestamp="1598664776167">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1358" height="271" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1598289577338" />
-    <state width="1358" height="271" key="GridCell.Tab.0.center" timestamp="1598289577338">
-      <screen x="0" y="23" width="1792" height="1097" />
+    <state width="1358" height="271" key="GridCell.Tab.0.bottom/0.23.1920.1057/1920.23.1792.1097@0.23.1920.1057" timestamp="1598664776167" />
+    <state width="1358" height="271" key="GridCell.Tab.0.center" timestamp="1598664776166">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1358" height="271" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1598289577338" />
-    <state width="1358" height="271" key="GridCell.Tab.0.left" timestamp="1598289577337">
-      <screen x="0" y="23" width="1792" height="1097" />
+    <state width="1358" height="271" key="GridCell.Tab.0.center/0.23.1920.1057/1920.23.1792.1097@0.23.1920.1057" timestamp="1598664776166" />
+    <state width="1358" height="271" key="GridCell.Tab.0.left" timestamp="1598664776166">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1358" height="271" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1598289577337" />
-    <state width="1358" height="271" key="GridCell.Tab.0.right" timestamp="1598289577338">
-      <screen x="0" y="23" width="1792" height="1097" />
+    <state width="1358" height="271" key="GridCell.Tab.0.left/0.23.1920.1057/1920.23.1792.1097@0.23.1920.1057" timestamp="1598664776166" />
+    <state width="1358" height="271" key="GridCell.Tab.0.right" timestamp="1598664776166">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1358" height="271" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1598289577338" />
+    <state width="1358" height="271" key="GridCell.Tab.0.right/0.23.1920.1057/1920.23.1792.1097@0.23.1920.1057" timestamp="1598664776166" />
   </component>
 </project>

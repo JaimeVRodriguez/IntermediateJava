@@ -49,13 +49,13 @@ public class Dollars {
 
         // Display original input amount followed by breakdown of denominations
         JOptionPane.showMessageDialog(null, "Dollar amount entered: " + userInput + "\n\n" +
-                                                                    "---The denominations are below---" + "\n" +
-                                                                    "100's: " + hundreds + "\n" +
-                                                                    "50's:  " + fifties + "\n" +
-                                                                    "20's:  " + twenties + "\n" +
-                                                                    "10's:  " + tens + "\n" +
-                                                                    "5's:   " + fives + "\n" +
-                                                                    "1's:   " + ones);
+                "---The denominations are below---" + "\n" +
+                "100's: " + hundreds + "\n" +
+                "50's:  " + fifties + "\n" +
+                "20's:  " + twenties + "\n" +
+                "10's:  " + tens + "\n" +
+                "5's:   " + fives + "\n" +
+                "1's:   " + ones);
 
         System.exit(0);
     }
