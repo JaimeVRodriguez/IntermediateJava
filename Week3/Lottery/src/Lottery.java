@@ -1,3 +1,20 @@
+/*
+ * Jaime Rodriguez
+ * Assignment 3.1
+ * August 31, 2020
+ *
+ * Purpose: Generate 4 random numbers
+ * and have user insert 4 guess. Distribute
+ * points dependent on the number of matches
+ *
+ * To compile the program:
+ * javac Lottery.java
+ *
+ * To execute the program:
+ * java Lottery
+ *
+ */
+
 import java.util.Scanner;
 import java.util.Random;
 
@@ -47,16 +64,19 @@ public class Lottery {
         // Initialize the points score
         // Change points dependent on number of matches
         int points = 0;
-        if (match == 0) {
-            points = 0;
-        } else if (match == 1) {
-            points = 5;
-        } else if (match == 2) {
-            points = 100;
-        } else if (match == 3) {
-            points = 2000;
-        } else if (match == 4) {
-            points = 1000000;
+        switch (match) {
+            case 1:
+                points = 5;
+                break;
+            case 2:
+                points = 100;
+                break;
+            case 3:
+                points = 2000;
+                break;
+            case 4:
+                points = 1000000;
+                break;
         }
 
         System.out.println(printGuesses(guessOne, guessTwo, guessThree, guessFour));
