@@ -42,9 +42,7 @@ public class Lottery {
         int guessThree = sc.nextInt();
         System.out.println("Enter fourth guess: ");
         int guessFour = sc.nextInt();
-
-
-
+        
         // Initialize number of matches
         // Separate if statements to determine if a user's guess matches any one of the randomly generated numbers
         int match = 0;
