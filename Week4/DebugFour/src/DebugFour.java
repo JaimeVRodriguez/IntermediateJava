@@ -35,7 +35,6 @@ class Question {
     }
 
     public void verifyAnswer() {
-
         // Missing closing ;
         correctAnswer = "CIS402A"
         // Option two would be to equalsIgnoreCase
