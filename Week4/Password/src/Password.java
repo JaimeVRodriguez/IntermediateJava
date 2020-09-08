@@ -1,39 +1,61 @@
+/*
+ * Jaime Rodriguez
+ * Assignment 4.1
+ * September 8, 2020
+ *
+ * Purpose: Create a program that directs a user
+ * to create a password meeting certain parameters
+ * and has user confirm password
+ *
+ * To compile the program:
+ * javac Password.java
+ *
+ * To execute the program:
+ * java Password
+ *
+ */
+
 import javax.swing.JOptionPane;
 
 public class Password {
 
-    public Password() {
+    public static void main(String[] args) {
 
-    }
-
-    public void getPassword() {
-
+        // password1 is original password
+        // This prompts user for password
         String password1 = JOptionPane.showInputDialog(null,
                 "Please enter your password ", "Password", 1);
 
+        // While loop ensure system continues to prompt user until parameters are met
         while (true) {
 
             int length = password1.length();
             boolean valid = true;
+
+            // Checks whether password meets length requirment
             if (length < 6 || length > 10) {
                 valid = false;
 
             } else {
 
-                boolean charactersFound = false;
+                // Variable to check whether both letter and digits are found
+                // If found counts will be increased
+                boolean lettersFound = false;
                 boolean digitsFound = false;
-
-                int characterCount = 0;
+                int letterCount = 0;
                 int digitCount = 0;
 
+                // Break down original password into an array to check each character
                 char[] chars = password1.toCharArray();
                 int charsLength = chars.length;
 
+                // Loop through array to check for letters and increment count if found
+                // Loop through array to check for digits and increment count if found
                 for (int i = 0; i < charsLength; i++) {
                     if (Character.isLetter(chars[i])) {
-                        characterCount += 1;
-                        if (characterCount > 0) {
-                            charactersFound = true;
+                        letterCount += 1;
+                        if (letterCount > 0) {
+                            lettersFound = true;
                         }
                     }
 
@@ -45,17 +67,21 @@ public class Password {
                     }
                 }
 
-                if (charactersFound && digitsFound) {
+                // Check whether both letters and digits were found
+                if (lettersFound && digitsFound) {
                     valid = true;
                 } else {
                     valid = false;
                 }
             }
 
+            // If all parameters are met
+            // Loop breaks and user is prompted to confirm password below
             if (valid) {
                 break;
             }
 
+            // If not valid user will see the parameters and be asked to re-enter password
             password1 = JOptionPane.showInputDialog(
                     null,
                     "Password must be between 6 and 10 characters\n"
@@ -64,25 +90,21 @@ public class Password {
                     "Invalid Password", 1);
         }
 
+        // password2 is the confirmation password that must match password1
         String password2 = JOptionPane.showInputDialog(null,
                 "Please confirm your password ", "Password Confirmation", 1);
+        // If passwords match while loop will break to confirmation message
         while (true) {
             if (password1.equals(password2)) {
                 break;
             }
 
+            // Not matching passwords will be prompted with a retry
             password2 = JOptionPane.showInputDialog(null, "Password Mismatch"
-                    + "\nPlease re-enter your password ", "Password Confirmation", 1);
+                    + "\nPlease re-enter your password ", "Password Confirmation Error", 1);
         }
 
         JOptionPane.showMessageDialog(null, "Password Is Confirmed! ",
                 "Password Confirmed", 1);
     }
-
-    public static void main(String[] args) {
-
-        Password password = new Password();
-        password.getPassword();
-    }
-
 }
