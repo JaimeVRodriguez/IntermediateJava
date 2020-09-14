@@ -1,4 +1,22 @@
-import java.util.Arrays;
+/*
+ * Jaime Rodriguez
+ * Assignment 5.1
+ * September 14, 2020
+ *
+ * Purpose: Create a program that creates 5
+ * objects of school books and places them in
+ * an array. User then sorts the array and the
+ * new sorted array is printed based on users
+ * choice.
+ *
+ * To compile the program:
+ * javac SchoolTextBook.java
+ *
+ * To execute the program:
+ * java SchoolTextBook
+ *
+ */
+
 import java.util.Comparator;
 
 public class SchoolTextBook {
@@ -67,7 +85,6 @@ public class SchoolTextBook {
     }
 
     static class CompareAuthor implements Comparator<SchoolTextBook> {
-        @Override
         public int compare(SchoolTextBook o1, SchoolTextBook o2) {
             String bookOne = o1.getAuthor().toUpperCase();
             String bookTwo = o2.getAuthor().toUpperCase();
@@ -76,7 +93,6 @@ public class SchoolTextBook {
     }
 
     static class CompareTitle implements Comparator<SchoolTextBook> {
-        @Override
         public int compare(SchoolTextBook o1, SchoolTextBook o2) {
             String bookOne = o1.getTitle().toUpperCase();
             String bookTwo = o2.getTitle().toUpperCase();
@@ -85,7 +101,6 @@ public class SchoolTextBook {
     }
 
     static class ComparePageCount implements Comparator<SchoolTextBook> {
-        @Override
         public int compare(SchoolTextBook o1, SchoolTextBook o2) {
             int bookOne = o1.getPageCount();
             int bookTwo = o2.getPageCount();
@@ -99,7 +114,6 @@ public class SchoolTextBook {
     }
 
     static class CompareISBN implements Comparator<SchoolTextBook> {
-        @Override
         public int compare(SchoolTextBook o1, SchoolTextBook o2) {
             long bookOne = o1.getISBN();
             long bookTwo = o2.getISBN();
@@ -113,7 +127,6 @@ public class SchoolTextBook {
     }
 
     static class ComparePrice implements Comparator<SchoolTextBook> {
-        @Override
         public int compare(SchoolTextBook o1, SchoolTextBook o2) {
             double bookOne = o1.getPrice();
             double bookTwo = o2.getPrice();
