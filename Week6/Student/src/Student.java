@@ -1,3 +1,20 @@
+/*
+ * Jaime Rodriguez
+ * Assignment 6.1
+ * September 22, 2020
+ *
+ * Purpose: Create program that prints
+ * students objects in a a linked list
+ * in both incremental and reverse order
+ *
+ * To compile the program:
+ * javac Student.java
+ *
+ * To execute the program:
+ * java Student
+ *
+ */
+
 public class Student {
 
     private String firstName, lastName;
@@ -31,13 +48,5 @@ public class Student {
 
     public void setStudentID(int studentID) {
         this.studentID = studentID;
-    }
-
-    public String toString() {
-        return "Student{" +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", studentID=" + studentID +
-                '}';
     }
 }

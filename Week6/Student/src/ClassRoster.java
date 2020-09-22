@@ -1,3 +1,20 @@
+/*
+ * Jaime Rodriguez
+ * Assignment 6.1
+ * September 22, 2020
+ *
+ * Purpose: Create program that prints
+ * students objects in a a linked list
+ * in both incremental and reverse order
+ *
+ * To compile the program:
+ * javac ClassRoster.java
+ *
+ * To execute the program:
+ * java ClassRoster
+ *
+ */
+
 import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;
@@ -8,8 +25,9 @@ public class ClassRoster {
 
         List<Student> students = new LinkedList<Student>();
 
+        // Place 20 unique "students" into linked list
         students.add(new Student("Jaime", "Rodriguez", 101));
-        students.add(new Student("Jaime", "Rodriguez", 102));
+        students.add(new Student("Kennedy", "Rose", 102));
         students.add(new Student("Kara", "Garcia", 103));
         students.add(new Student("Dylan", "Garcia", 104));
         students.add(new Student("Gunner", "Rodriguez", 105));
@@ -29,18 +47,22 @@ public class ClassRoster {
         students.add(new Student("Doug", "Duke", 119));
         students.add(new Student("Eric", "Moreno", 120));
 
+        // Print items in linked list in order in which they were placed using "ListIterator"
+        System.out.println("=== Incremental Order ===");
         ListIterator<Student> iterator = students.listIterator();
         while (iterator.hasNext()) {
             Student student = iterator.next();
-
-            System.out.println(student.getStudentID() + student.getFirstName() + student.getLastName());
+            System.out.println("ID Number: " + student.getStudentID() + " First Name: " + student.getFirstName() + " Last Name: "+ student.getLastName());
         }
 
+        System.out.println();
+
+        // Print items in linked list in reversed order using "ListIterator"
+        System.out.println("=== Reverse Order ===");
         ListIterator<Student> reverseIterator = students.listIterator(students.size());
         while (reverseIterator.hasPrevious()) {
             Student student = reverseIterator.previous();
-
-            System.out.println(student.getStudentID() + student.getFirstName() + student.getLastName());
+            System.out.println("ID Number: " + student.getStudentID() + " First Name: " + student.getFirstName() + " Last Name: "+ student.getLastName());
         }
     }
 }
