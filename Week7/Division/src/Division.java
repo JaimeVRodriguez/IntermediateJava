@@ -1,3 +1,20 @@
+/*
+ * Jaime Rodriguez
+ * Assignment 7.1
+ * September 28, 2020
+ *
+ * Purpose: Utilize inheritance
+ * in order to create subclasses
+ * of the Division superclass
+ *
+ * To compile the program:
+ * javac Division.java
+ *
+ * To execute the program:
+ * java Division
+ *
+ */
+
 abstract class Division {
 
     private String divisionName;
