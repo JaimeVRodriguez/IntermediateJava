@@ -1,16 +1,16 @@
 /*
  * Jaime Rodriguez
- * Assignment 6.2
- * September 23, 2020
+ * Assignment 7.2
+ * September 29, 2020
  *
  * Purpose: Correct bug error in classmates
  * program to function properly
  *
  * To compile the program:
- * javac Debug_wk6.java
+ * javac Car.java
  *
  * To execute the program:
- * java Debug_wk6
+ * java Car
  *
  */
 
@@ -19,11 +19,8 @@ class Vehicle {
     protected String make = "Ferrari";
 
     public void engineRev() {
-
         System.out.println("Vroom! Vroom!");
-
     }
-
 }
 
 class Car extends Vehicle {
@@ -36,10 +33,7 @@ class Car extends Vehicle {
 
         // Did not match original method.
         myFastCar.engineRev();
-
         // type did not exists. Changed to make.
         System.out.println(myFastCar.make + " " + myFastCar.model);
-
     }
-
 }
