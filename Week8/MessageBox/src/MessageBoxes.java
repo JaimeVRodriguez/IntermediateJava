@@ -120,6 +120,7 @@ public class MessageBoxes{
 
             if(val != null){
 
+                // Additional option for vals button
                 // Add additional option to drop down
                 Object val2 = JOptionPane.showInputDialog(null,
                         "Choose one", "Input",
