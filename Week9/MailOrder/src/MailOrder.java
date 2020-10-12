@@ -48,8 +48,6 @@ public class MailOrder {
         String quantity;
         int total = 0;
 
-        final String QUIT = "999";
-
         try {
             fc = (FileChannel)Files.newByteChannel(fullFile, CREATE, READ, WRITE);
 
