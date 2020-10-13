@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b9ea6894-10fe-4a08-af44-27ec0ef07b51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ErrorNine/FileOut.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FileOut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MailOrder/MailOrderJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ErrorNine.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MailOrder/out/production/MailOrderJava/MailOrder.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1iqGlV45vu8nbbhuh4AgEtPS3FY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="FileOut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileOut" />
+      <module name="ErrorNine" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FileOut" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9ea6894-10fe-4a08-af44-27ec0ef07b51" name="Default Changelist" comment="" />
+      <created>1602627859179</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602627859179</updated>
+      <workItem from="1602627863432" duration="794000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="988" height="284" key="GridCell.Tab.0.bottom" timestamp="1602628489513">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="988" height="284" key="GridCell.Tab.0.bottom/0.23.1920.1057/1920.23.1792.1097@0.23.1920.1057" timestamp="1602628489513" />
+    <state width="988" height="284" key="GridCell.Tab.0.center" timestamp="1602628489512">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="988" height="284" key="GridCell.Tab.0.center/0.23.1920.1057/1920.23.1792.1097@0.23.1920.1057" timestamp="1602628489512" />
+    <state width="988" height="284" key="GridCell.Tab.0.left" timestamp="1602628489512">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="988" height="284" key="GridCell.Tab.0.left/0.23.1920.1057/1920.23.1792.1097@0.23.1920.1057" timestamp="1602628489512" />
+    <state width="988" height="284" key="GridCell.Tab.0.right" timestamp="1602628489513">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="988" height="284" key="GridCell.Tab.0.right/0.23.1920.1057/1920.23.1792.1097@0.23.1920.1057" timestamp="1602628489513" />
+  </component>
+</project>
